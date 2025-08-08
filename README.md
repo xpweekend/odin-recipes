@@ -7,7 +7,7 @@ I also made another directory within the directory where index.html sits, named 
 
 Boilerplate at this point is memorised, but it's much easier to just type ! then Tab to get the template, then change the title and add stuff to it.
 
-The index page is very bare, it only consists of the boilerplate, an <h1> element, an unordered list, and the relative links to the 3 recipe pages.
+The index page is very bare, it only consists of the boilerplate, an `<h1>` element, an unordered list, and the relative links to the 3 recipe pages.
 
 The mango sorbet page was first and also used the ! and Tab for the boilerplate. I followed the instructions on TOP for how it should look and created a template out of it, which I then used for the other 2 recipe pages, just changing the content that the user can see to match the recipe. The overall code didn’t change — just extra or fewer <li> elements.
 
