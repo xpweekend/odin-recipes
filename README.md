@@ -9,7 +9,7 @@ Boilerplate at this point is memorised, but it's much easier to just type ! then
 
 The index page is very bare, it only consists of the boilerplate, an `<h1>` element, an unordered list, and the relative links to the 3 recipe pages.
 
-The mango sorbet page was first and also used the ! and Tab for the boilerplate. I followed the instructions on TOP for how it should look and created a template out of it, which I then used for the other 2 recipe pages, just changing the content that the user can see to match the recipe. The overall code didn’t change — just extra or fewer <li> elements.
+The mango sorbet page was first and also used the ! and Tab for the boilerplate. I followed the instructions on TOP for how it should look and created a template out of it, which I then used for the other 2 recipe pages, just changing the content that the user can see to match the recipe. The overall code didn’t change — just extra or fewer `<li>` elements.
 
 There were 4 iterations of the website, and for each iteration I made sure to git add . and git commit, adding either just a title or a title and body depending on how many new things were added in that iteration, following best practices and some GPT help so my commits are decent. I think they are pretty okay for my first REAL sort of project. Still hand-holdy, but less step-by-step hand holding than the projects at fCC I did, and more “You should have this, this, and that. Go ham.” Which I kind of like, but I also don’t know if it’s easy because I’ve already done all of this in fCC, and I may struggle with new content that is less hand-holdy when it comes to CSS or JS — but we will see.
 
