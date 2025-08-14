@@ -1,0 +1,121 @@
+/* Base */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+/* Big page title */
+.title {
+  text-align: center;
+  margin: 20px auto 10px;
+  font-size: 80px;
+}
+
+/* Landing page: horizontally centered buttons */
+.alignment {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 30px;
+}
+
+/* Reusable button-link */
+.button {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  background-color: #ce7714;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid #000;
+  box-shadow: #333 5px 5px 10px;
+}
+
+.button:hover {
+  background-color: #ff8c00;
+  color: #fff;
+  box-shadow: #000 3px 3px 5px;
+}
+
+.button:active {
+  background-color: #e67e22;
+  box-shadow: #000 1px 1px 3px;
+  transform: translateY(4px);
+}
+
+/* Utility: center inline/inline-block children (e.g., the Home button in a <p>) */
+.centered {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.centered .button {
+  margin: 0 10px; /* space between buttons */
+}
+
+
+/* Recipe page layout container */
+.recipe {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Grouped styling for the main recipe content area */
+.recipe-content {
+  margin-top: 40px; /* space under title + Home button */
+}
+
+/* Center the hero image on recipe pages */
+.recipe-content img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Headings rhythm */
+.recipe-content h2 {
+  margin-top: 30px;
+}
+
+/* Readable copy */
+.recipe-content p,
+.recipe-content ul,
+.recipe-content ol {
+  line-height: 1.6;
+}
+
+/* Spacing between blocks inside recipe-content */
+.recipe-content > * + * {
+  margin-top: 12px;
+}
+
+.lower{
+    margin-top: 40px;
+}
+
+/* looks like plain text */
+.stealth-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: default;          /* no hand cursor */
+  outline: none;            /* no focus ring (see note below) */
+}
+
+/* keep animations/gradients from breaking the illusion */
+.stealth-link:link,
+.stealth-link:visited,
+.stealth-link:hover,
+.stealth-link:active,
+.stealth-link:focus {
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+}
